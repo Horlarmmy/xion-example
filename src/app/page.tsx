@@ -79,7 +79,7 @@ export default function Page(): JSX.Element {
         {account?.bech32Address ? <div className="flex items-center justify-center">VIEW ACCOUNT</div> : "CONNECT"}
       </Button>
 
-      {client && (
+      {/* {client && (
         <>
           <Button disabled={loading} fullWidth onClick={getCount} structure="base">
             {loading ? "LOADING..." : "Get Count"}
@@ -93,7 +93,7 @@ export default function Page(): JSX.Element {
             </Button>
           )}
         </>
-      )}
+      )} */}
 
       <Abstraxion onClose={() => setShowModal(false)} />
 
